@@ -1805,7 +1805,7 @@ const App: React.FC = () => {
     // Jika memilih peran Siswa → langsung ke link khusus siswa
     if (loginForm.role === "Siswa") {
       window.location.replace(
-        "https://app-siswa-pkbm-bungung-salapang.vercel.app/"
+        "https://app-siswa-pkbmarham.vercel.app/"
       );
       return;
     }
